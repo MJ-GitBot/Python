@@ -30,3 +30,28 @@ condations :
                 SQL 
                 SQl- DB 
                 FAstAPi : api creation 
+for i in range(1, 11):
+    #print(i);
+    pass;
+    
+number = 1;
+while number <= 5:
+    print("Number is: ", number);
+    number = number + 1;
+
+
+uname=input("ENter Name : ");
+upass=input("ENter password ");
+if uname=="Thanesh" and upass=="Thanesh@123":
+    print("Login Successfull");
+else :
+    print("Login Failed");
+
+
+--------
+while True:
+    number = int(input("Enter a positive number: "))
+    if number > 0:
+        break;        
+    print("Please enter a positive number.")
+print("Number is  : ", number)      
