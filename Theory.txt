@@ -1,0 +1,32 @@
+#Operatators
+
+Arithmetic : + , - , / , * ,  
+Comparison  : == , != , > , < , <= , >= 
+LOgical  : and , or , not
+Assignment  : = , += , -= 
+Membership  : in , not in 
+Identity  : is ,, is not 
+
+
+Data Types : 
+        int , float , str , bool , list , set , tuple , dict 
+
+condations : 
+    if 
+    if ...else 
+    if ... else ... else 
+    nested if 
+
+    Loops : 
+    while 
+    for 
+    break 
+    continue 
+    pass 
+
+
+    first 3 week Python basics : 
+                basics 
+                SQL 
+                SQl- DB 
+                FAstAPi : api creation 
