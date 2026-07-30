@@ -55,3 +55,72 @@ while True:
         break;        
     print("Please enter a positive number.")
 print("Number is  : ", number)      
+-----------------------------------------------------
+OOps 
+Object oriented preprogramming lang 
+	must support : 
+			1 ) Class & Objects 
+			2 ) Inheritance 
+			3 ) Polymorphism 
+			4 ) Abstraction 
+			5 ) Exculpation 
+
+C prog : will it support  ? no it will not support ? this is not Oops ...! POPL/SOPL
+C++ / java / Python / csharp/ typescript /.....! yes it will oops ...!
+
+Advantage  !
+		1 ) code Reusability 
+		2 ) hide implementation using abstract 
+		3 ) easy to Maintenance ( loosely cooling )
+		4 ) Modularity  : large app are div ibto smaller manageable folders 
+		5 ) Scalabelety : easy to add new Features without affcting existing code / functinlity
+		6 ) improved more security 
+		7 ) easy to test 
+
+
+
+-------------------- 
+Class name  : BankAccount
+Object 	    : account1 , account2
+proprties   : account_num, balance
+Methods	    : deposit(), withdraw(), checkbalace();
+
+
+class Bank
+{
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
