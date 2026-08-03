@@ -58,10 +58,11 @@ print("Number is  : ", number)
 -----------------------------------------------------
 OOps 
 Object oriented preprogramming lang 
-	must support : 
-			1 ) Class & Objects 
-			2 ) Inheritance 
-			3 ) Polymorphism 
+	must support :                                            // base to Derived 
+			1 ) Class & Objects                               // super to Sub 
+			2 ) Inheritance     : aquring the proprty from the// parent to child
+                                : Types of Inheritance : Single, Multilevel , MultiPle , Hrihcical , Hybrid 
+			3 ) Polymorphism    : one method multiple behiviour 
 			4 ) Abstraction 
 			5 ) Exculpation 
 
@@ -109,7 +110,7 @@ It does not return a value explicitly.			It can return a value.
 
 
 
-
+Python will support both Function oriented and object oreinted ....!
 
 
 

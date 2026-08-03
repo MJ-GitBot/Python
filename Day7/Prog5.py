@@ -1,5 +1,4 @@
 class Suresh:
-   
     def parentDetails(self):
         print("Parent Name: Suresh")
 
