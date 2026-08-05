@@ -1,49 +1,22 @@
 	Software Required ....!
 
 Python latest : 3.11 or 3.12 + 	: App Develop  	: https://www.python.org/downloads/
-Visual Studio code		: IDE 		: https://code.visualstudio.com/download?_exp_download=fb315fc982 
-Git 				: git-git bash	: https://git-scm.com/install/windows
-                    signin and login : https://github.com/
-				    git hub account: Repo-link:https://github.com/Thaneshwara848/Python.git
-				 
+Visual Studio code		: IDE 		: https://code.visualstudio.com/download
+Git 				: git-git bash	: https://git-scm.com/install/windows				 
 Postman				: Api testing 	: https://www.postman.com/downloads/
 MySQL or PostgreSQL/		: Data Store 	: https://dev.mysql.com/downloads/mysql/8.0.html
 Node Js				: Front End 	: https://dev.mysql.com/downloads/installer/
+JAVA JDK 			:https://download.oracle.com/java/26/latest/jdk-26_windows-x64_bin.exe (sha256)
+STS / eclipse / IntelliJ
 
 
-C : 
-include<stdio.h>
-	printf
-	scanf
 
-C++
-	cin
-	cout
-java 
-	System.out.println("HI");
-	Scanner sc = new Scanner(System.in);
 
-Python : 
-	print
-	input 
 
-	variable 
-	data types 
-	operators
-	loops , conditions , 
-	OOps: 
-		class & Object 
-		Inheritance 
-		polymorphism 
-		abstraction 
-		Encapsulation
-	Exception handle 
-	Threads 
-	Access Modifiers 
-	Non Access Modifers 
-	Collections : 
-	DB operations
-	Web Operartion using FAST Api, Django, Falsk  
+
+
+
+
 
 
 
