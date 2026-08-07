@@ -114,6 +114,49 @@ Python will support both Function oriented and object oreinted ....!
 
 
 
+Basics 
+Loops / conditions / jumping statements(break , return , pass )
+Operators, Arithmetic , Logical(and or not ) , conditional , 
+Data Types 
+Oops : 
+        Class & Object
+        Inheritance	:aquring the property from parent  to child / super to sub class / base class derived class 
+				single level ,
+				multilevel 
+				Multiple 
+				Hybrid 
+				Hierarchical 
+        Polymorphism ,  : over riding , (same method name , same parameter but i can be diff implementation ) 
+        Abstraction     : hiding the implementation , 
+				import abstract 
+				@abstractmethod : so this will hide the implementation 
+					 		and in child class we must have to over ride / provide the implementation
+        Exculpation     : 	handing the data member in single class ? 
+					make all the variable as private ? 
+					use setter / getter 
+
+Access Modifiers : 
+			Public ,: anywhere we can access : 
+			Private : only for same class 
+			Protected : 
+Non Access Modifiers  : 
+			Static : Without createing a obj we can execute 
+			Final  : we can not over ride  in class 
+			Abstract: hide the implemention in  parent and provide the implementation in child class 
+Exception handling    : handing the run time exceptions 
+			try 
+			expect 
+			finally 
+			raise
+			else  
+			
+Data Types  : LIST ,SET,  Tuple , Dist.
+ 
+
+------------- next Week Plan ---------------------------------------
+Monday+ Tuesday  : SQL ----  ( PYTHON to SQL ) -1 / 2 Day 
+Wed + Threday+ Friday= FASt APIS (WEB + Python FAst API + DB ) 
+----------------------------------------------------------------------
 
 
 
@@ -123,7 +166,9 @@ Python will support both Function oriented and object oreinted ....!
 
 
 
-
+what if i enter the empty name  ? 
+what if i give only space ? 
+while searcing if i enter the case in sencitive ? 
 
 
 
