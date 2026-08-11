@@ -1,67 +1,4 @@
-#A set is a collection used to store unique values 
-#Does not allow duplicate values
-#Unordered, so no fixed index
-#Mutable: values can be added or removed
-#Created using { }
-#Can store different immutable data types
-data = {10, "Python", 5.5, True}
-print(data)
-
-numbers = {10, 20, 30, 40}
-print(numbers)
-
-#Duplicates are automatically removed.
-numbers = {10, 20, 10, 30, 20}
-print(numbers)
-
-#add() – Add one value
-students = {"Ravi", "Suma"}
-students.add("Kiran")
-print(students)
-
-#update() – Add multiple values
-students = {"Ravi", "Suma"}
-students.update(["Kiran", "Anu"])
-print(students)
-
-#remove() – Remove a value
-students = {"Ravi", "Suma", "Kiran"}
-students.remove("Suma")
-print(students)
-
-#discard() – Safely remove a value
-students = {"Ravi", "Suma"}
-students.discard("Ramesh")
-print(students)
-
-#pop() – Remove an arbitrary value
-students = {"Ravi", "Suma", "Kiran"}
-removed_student = students.pop()
-print("Removed:", removed_student)
-print(students)
-
-#clear() – Remove all values
-students = {"Ravi", "Suma", "Kiran"}
-students.clear()
-print(students)
-
-
-# union , intersection , difference
-
-languages = {"Python", "Java", "C#"}
-
-for language in languages:
-    print(language)
-    
-#Check whether a value exists
-languages = {"Python", "Java", "C#"}
-if "Python" in languages:
-    print("Python is available")
-    
-print("=========================");
-
 students = set()
-
 while True:
     print("\n===== Student Management System =====")
     print("1. Add Student")
@@ -71,43 +8,32 @@ while True:
     print("5. Delete Student")
     print("6. Delete All Students")
     print("7. Exit")
-
     choice = input("Enter your choice: ").strip()
-
     # CREATE
     if choice == "1":
         name = input("Enter student name: ").strip()
-
         if name == "":
             print("Student name cannot be empty.")
-
         elif name in students:
             print("Student already exists.")
-
         else:
             students.add(name)
             print("Student added successfully.")
-
     # READ
     elif choice == "2":
         if len(students) == 0:
             print("No students available.")
-
         else:
             print("\nStudent List:")
-
             for number, student in enumerate(
                 sorted(students), start=1
             ):
                 print(number, student)
-
     # SEARCH
     elif choice == "3":
         name = input("Enter student name to search: ").strip()
-
         if name in students:
             print(name, "is available.")
-
         else:
             print("Student not found.")
 

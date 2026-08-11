@@ -1,4 +1,4 @@
-fruits = ["Apple", "Mango", "Banana"] # LIST  we have multiple ready methods 
+fruits = ["Apple", "Mango", "Banana",100] # LIST  we have multiple ready methods 
 print(fruits);      # apple , mango, banana 
 print(fruits[0]);   # Apple 
 print(fruits[1]);   #mango 
