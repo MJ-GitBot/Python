@@ -109,8 +109,7 @@ Python will support both Function oriented and object oreinted ....!
 
 
 
-Basics 
-Loops / conditions / jumping statements(break , return , pass )
+Basics  : Loops / conditions / jumping statements(break , return , pass )
 Operators, Arithmetic , Logical(and or not ) , conditional , 
 Data Types 
 Oops : 
@@ -129,7 +128,6 @@ Oops :
         Exculpation     : 	handing the data member in single class ? 
 					make all the variable as private ? 
 					use setter / getter 
-
 Access Modifiers : 
 			Public ,: anywhere we can access : 
 			Private : only for same class 
@@ -144,7 +142,6 @@ Exception handling    : handing the run time exceptions
 			finally 
 			raise
 			else  
-			
 Data Types  : LIST ,SET,  Tuple , Dist.
  
 
@@ -175,7 +172,24 @@ List
 
 TDD :
 	tester will give the test cases : 
-			 
+No.	Input	Condition tested	Expected output
+1	""	Empty name	Student name cannot be empty.
+2	" "	Only spaces	Student name cannot be empty.
+3	"Ra"	Fewer than 3 characters	Name must contain at least 3 characters.
+4	"R"	Fewer than 3 characters	Name must contain at least 3 characters.
+5	"Rameshwaraa"	More than 10 characters	Name must not contain more than 10 characters.
+6	"Ram Kumar"	Contains a space	Name must contain only letters—no spaces, numbers, or special characters.
+7	"Ram123"	Contains numbers	Name must contain only letters—no spaces, numbers, or special characters.
+8	"Ram@"	Contains special character	Name must contain only letters—no spaces, numbers, or special characters.
+9	"Ram_Dev"	Contains underscore	Name must contain only letters—no spaces, numbers, or special characters.
+10	"Ramesh"	Exact duplicate	Student already exists.
+11	"ramesh"	Case-insensitive duplicate	Student already exists.
+12	"RAMESH"	Case-insensitive duplicate	Student already exists.
+13	"Ram"	Valid minimum length	Student added successfully.
+14	"Abcdefghij"	Valid maximum length	Student added successfully.
+15	"Prakash"	Valid name	Student added successfully.
+16	" Ravi "	Leading/trailing spaces removed	Student added successfully.
+		 
 BDD 
 
 
