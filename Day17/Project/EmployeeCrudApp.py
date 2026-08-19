@@ -264,9 +264,7 @@ cursor = None
 try:
     connection = get_connection()
     cursor = connection.cursor(dictionary=True)
-
     print("Database connected successfully.")
-
     while True:
         print("\n========== EMPLOYEE MANAGEMENT SYSTEM ==========")
         print("1. Add Employee")
@@ -276,9 +274,7 @@ try:
         print("5. Delete Employee")
         print("6. Exit")
         print("================================================")
-
         choice = input("Enter your choice (1-6): ").strip()
-
         if choice == "1":
             add_employee(cursor, connection)
 
@@ -297,10 +293,8 @@ try:
         elif choice == "6":
             print("Thank you! Application closed.")
             break
-
         else:
             print("Invalid choice! Please select between 1 and 6.")
-
 except mysql.connector.Error as error:
     print("Database connection failed:", error)
 
